@@ -10,4 +10,8 @@ $("#development").hover(() => {
     $("#development").replaceWith($("#development-description"));
     $("#development-description").show();
 });
+$("#product-management").hover(() => {
+    $("#product-management").replaceWith($("#product-management-description"));
+    $("#product-management-description").show();
+});
 
