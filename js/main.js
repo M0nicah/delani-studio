@@ -15,3 +15,10 @@ $("#product-management").hover(() => {
     $("#product-management-description").show();
 });
 
+document.getElementById("btn").addEventListener("click",() => {
+    const name = document.getElementById("inputName").value();
+    const email = document.getElementById("inputEmail").value();
+    const message = document.getElementById("inputMessage").value();
+});
+
+if (inputName ==
