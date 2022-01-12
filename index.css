@@ -1,0 +1,13 @@
+#design{
+    display: flex;
+    flex-direction: column;
+}
+#design-description{
+    display: none;
+}
+#development-description{
+    display: none;
+}
+#product-management-description{
+    display: none;
+}

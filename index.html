@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link href="./index.css" rel="stylesheet" />
   </head>
   <body>
     <div
@@ -28,15 +29,7 @@
       </div>
     </div>
     <div
-      class="
-        container-fluid
-        h-100
-        -flex
-        justify-content-center
-        align-items-center
-        text-center
-        p-4
-      "
+      class="container-fluid h-100 -flex justify-content-center align-items-center text-center p-4"
     >
       <!--About us section begins here-->
       <h1 class="pb-2">ABOUT US</h1>
@@ -84,12 +77,15 @@
       <h1>WHAT WE DO</h1>
       <div class="d-flex justify-content-around align-items-center cols p-4">
         <div class="text-center p-2" id="design">
+          <div>
           <img
             src="./assets/services_icons/design_icon.png"
             alt="Design"
             class="p-2"
+            id="image-hide"
           />
-          <p>DESIGN</p>
+          </div>
+          <p id="design-hide">DESIGN</p>
         </div>
         <div class="text-center p-2" id="development">
           <img
