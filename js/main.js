@@ -55,6 +55,7 @@ $(document).ready(function () {
     $("#product-management-description").hide();
   });
 
+  //the following functions will add hover effects to all portfolio sections
   $(".hover-1").mouseenter(function () {
     $(".hover-1").css({ "background-color": "white", opacity: "0.3" });
   });
@@ -111,5 +112,14 @@ $(document).ready(function () {
     $(".hover-8").css({ "background-color": "white", opacity: "1" });
   });
 
+  //this function will add a click event to the submit button on the form.
+  $("#btn").click(function () {
+    let inputName = $("#inputName").val();
+    let inputEmail = $("#inputEmail").val();
+    let inputMessage = $("#inputMessage").val();
 
+    console.log(inputEmail, inputMessage);
+
+    alert("Hello " + inputName +  " we have received your request. Thank you for contacting us!")
+  });
 });
