@@ -21,20 +21,32 @@ document.getElementById("btn").addEventListener("click",() => {
     const message = document.getElementById("inputMessage").value();
 });*/
 
+//this function will add toggle effect to design.
 $(document).ready(function () {
   $("#design").click(function () {
     $("#design-description").show();
     $("#design").hide();
-    $("#design-description").click(function () {
-      $("#design").show();
-      $("#design-description").hide();
-    });
   });
+
+  $("#design-description").click(function () {
+    $("#design").show();
+    $("#design-description").hide();
+    $("#development-description").hide();
+  });
+//this function will add toggle effect to development
+  $("#development").click(function () {
+    $("#development-description").show();
+    $("#development").hide();
+  });
+
+  $("#development-description").click(function () {
+    $("#development").show();
+    $("#development-description").hide();
+  });
+
+  /
 });
-$("#design-description").click(function () {
-  $("#design").show();
-  $("#design-description").hide();
-});
+
 // $(document).ready(function(){
 //     $("#development").click (function(){
 //         $("#development-description").show();
