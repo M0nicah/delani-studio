@@ -21,7 +21,7 @@ document.getElementById("btn").addEventListener("click",() => {
     const message = document.getElementById("inputMessage").value();
 });*/
 
-//this function will add toggle effect to design.
+//this function will add toggle effect to design section
 $(document).ready(function () {
   $("#design").click(function () {
     $("#design-description").show();
@@ -33,7 +33,7 @@ $(document).ready(function () {
     $("#design-description").hide();
     $("#development-description").hide();
   });
-//this function will add toggle effect to development
+  //this function will add toggle effect to development section
   $("#development").click(function () {
     $("#development-description").show();
     $("#development").hide();
@@ -44,20 +44,16 @@ $(document).ready(function () {
     $("#development-description").hide();
   });
 
-  /
+  //this function will add toggle effect to product management section
+  $("#product-management").click(function () {
+    $("#product-management-description").show();
+    $("#product-management").hide();
+  });
+
+  $("#product-management-description").click(function () {
+    $("#product-management").show();
+    $("#product-management-description").hide();
+  });
+  
 });
 
-// $(document).ready(function(){
-//     $("#development").click (function(){
-//         $("#development-description").show();
-//         $("#development").hide();
-//     });
-
-// });
-// $(document).ready(function(){
-//     $("#product-management").click (function(){
-//         $("#product-management-description").toggle();
-//         $("#product-management").show();
-//     });
-
-// });
