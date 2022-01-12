@@ -54,6 +54,62 @@ $(document).ready(function () {
     $("#product-management").show();
     $("#product-management-description").hide();
   });
-  
-});
 
+  $(".hover-1").mouseenter(function () {
+    $(".hover-1").css({ "background-color": "white", opacity: "0.3" });
+  });
+  $(".hover-1").mouseleave(function () {
+    $(".hover-1").css({ "background-color": "white", opacity: "1" });
+  });
+
+  $(".hover-2").mouseenter(function () {
+    $(".hover-2").css({ "background-color": "white", opacity: "0.3" });
+  });
+  $(".hover-2").mouseleave(function () {
+    $(".hover-2").css({ "background-color": "white", opacity: "1" });
+  });
+
+  $(".hover-3").mouseenter(function () {
+    $(".hover-3").css({ "background-color": "white", opacity: "0.3" });
+  });
+  $(".hover-3").mouseleave(function () {
+    $(".hover-3").css({ "background-color": "white", opacity: "1" });
+  });
+
+  $(".hover-4").mouseenter(function () {
+    $(".hover-4").css({ "background-color": "white", opacity: "0.3" });
+  });
+  $(".hover-4").mouseleave(function () {
+    $(".hover-4").css({ "background-color": "white", opacity: "1" });
+  });
+
+  $(".hover-5").mouseenter(function () {
+    $(".hover-5").css({ "background-color": "white", opacity: "0.3" });
+  });
+  $(".hover-5").mouseleave(function () {
+    $(".hover-5").css({ "background-color": "white", opacity: "1" });
+  });
+
+  $(".hover-6").mouseenter(function () {
+    $(".hover-6").css({ "background-color": "white", opacity: "0.3" });
+  });
+  $(".hover-6").mouseleave(function () {
+    $(".hover-6").css({ "background-color": "white", opacity: "1" });
+  });
+
+  $(".hover-7").mouseenter(function () {
+    $(".hover-7").css({ "background-color": "white", opacity: "0.3" });
+  });
+  $(".hover-7").mouseleave(function () {
+    $(".hover-7").css({ "background-color": "white", opacity: "1" });
+  });
+
+  $(".hover-8").mouseenter(function () {
+    $(".hover-8").css({ "background-color": "white", opacity: "0.3" });
+  });
+  $(".hover-8").mouseleave(function () {
+    $(".hover-8").css({ "background-color": "white", opacity: "1" });
+  });
+
+
+});
