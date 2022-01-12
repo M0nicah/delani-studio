@@ -20,5 +20,7 @@ document.getElementById("btn").addEventListener("click",() => {
     const email = document.getElementById("inputEmail").value();
     const message = document.getElementById("inputMessage").value();
 });
-
-if (inputName ==
+$("#design-description").click(function () {
+  $("#design").show();
+  $("#design-description").hide();
+});
