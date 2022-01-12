@@ -2,15 +2,15 @@ $("#design-description").hide();
 $("#development-description").hide();
 $("#product-management-description").hide();
 //the following functions will show the descriptions on hover(what we do section)
-$("#design").hover(() => {
+$("#design").toggle(() => {
     $("#design").replaceWith($("#design-description"));
     $("#design-description").show();
 });
-$("#development").hover(() => {
+$("#development").toggle(() => {
     $("#development").replaceWith($("#development-description"));
     $("#development-description").show();
 });
-$("#product-management").hover(() => {
+$("#product-management").toggle(() => {
     $("#product-management").replaceWith($("#product-management-description"));
     $("#product-management-description").show();
 });
